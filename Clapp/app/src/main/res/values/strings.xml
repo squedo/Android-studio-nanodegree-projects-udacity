@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Clapp</string>
+    <string name="activity_library">Library</string>
+    <string name="explanation_library">This activity would contain all the songs present in the library.
+    When clicking  the corresponding play button, the activity_on_play.xml would be launched
+        and the song would sound. The ImageView and the TextView with the title and artist of the selected song in activity_library
+        would be also displayed in the activity_on_play.xml.
+        Only the java code for the first song has been implemented.
+        When clicking on the Clapp icon it would be possible to go to the device storage to find for more songs to add to the library.
+    </string>
+    <string name="activity_on_play">On Play</string>
+    <string name="explanation_on_play">By clicking on the image, the Metadata of the song and other useful
+        information would be displayed.</string>
+    <string name="activity_metadata">Metadata</string>
+    <string name="main_facts_metadata">Main Facts</string>
+    <string name="explanation_description_metadata">The description of the artist and some lines about the song or album would be displayed
+    here. Maybe a link to youtube could be available to see the official video of the song.</string>
+    <string name="lyrics_metadata">Lyrics</string>
+    <string name="explanation_lyrics_metadata">The lyrics of the song would be displayed here in order the listener can sing while
+    hearing the song. Even a link to a website with the lyrics could be available</string>
+    <string name="Song1Name">David Bowie - Heroes</string>
+    <string name="Song2Name">Oasis - Whatever</string>
+    <string name="Song3Name">Muse - Revolt</string>
+    <string name="play_list">play list</string>
+    <string name="back_to_library">Library</string>
+    <string name="back_to_on_play">On Play</string>
+    <string name="metadata_song1_artist">David Bowie</string>
+    <string name="metadata_song1_title">Heroes</string>
+    <string name="metadata_song1_year">1977</string>
+
+</resources>

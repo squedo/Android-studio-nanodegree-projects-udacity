@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/beginning_activity"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.example.dell.clapp.Library">
+
+    <LinearLayout
+        style="@style/weight_height"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/clapp_icon" />
+
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/weight_height"
+        android:layout_marginTop="16dp"
+        android:layout_weight="2"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/song_1"
+                    style="@style/weight_height"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/song_1_image"
+                        style="@style/song_image"
+                        android:src="@drawable/bowie" />
+
+                    <TextView
+                        android:id="@+id/song_1_title"
+                        style="@style/song_title"
+                        android:text="@string/Song1Name" />
+
+                    <ImageButton
+                        android:id="@+id/song_1_play"
+                        style="@style/song_play"
+                        android:src="@drawable/play_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/song_2"
+                    style="@style/weight_height"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/song_2_image"
+                        style="@style/song_image"
+                        android:src="@drawable/oasis_whatever" />
+
+                    <TextView
+                        android:id="@+id/song_2_title"
+                        style="@style/song_title"
+                        android:text="@string/Song2Name" />
+
+                    <ImageButton
+                        android:id="@+id/song_2_play"
+                        style="@style/song_play"
+                        android:src="@drawable/play_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/song_3"
+                    style="@style/weight_height"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/song_3_image"
+                        style="@style/song_image"
+                        android:src="@drawable/muse_revolt" />
+
+                    <TextView
+                        android:id="@+id/song_3_title"
+                        style="@style/song_title"
+                        android:text="@string/Song3Name" />
+
+                    <ImageButton
+                        android:id="@+id/song_3_play"
+                        style="@style/song_play"
+                        android:src="@drawable/play_icon" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/explanation_library" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

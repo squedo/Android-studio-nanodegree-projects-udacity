@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/beginning_activity"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="com.example.dell.clapp.OnPlay">
+
+    <ImageView
+        android:id="@+id/song_image_on_play"
+        style="@style/song_image_on_play" />
+
+    <ScrollView
+        style="@style/weight_height"
+        android:layout_weight="0.25"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/weight_height"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical"
+            android:text="@string/explanation_on_play" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/dj_on_play"
+        style="@style/weight_height"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/song_title_on_play"
+            style="@style/song_title_on_play" />
+
+        <LinearLayout
+            android:id="@+id/rep_on_play"
+            style="@style/weight_height"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.25">
+
+            <ImageButton
+                style="@style/song_buttons_square"
+                android:background="@color/colorWhite"
+                android:src="@drawable/previous_icon" />
+
+            <ImageButton
+                style="@style/song_buttons_square"
+                android:background="#FFFFFF"
+                android:src="@drawable/stop_icon" />
+
+            <ImageButton
+                style="@style/song_buttons_square"
+                android:background="#FFFFFF"
+                android:src="@drawable/pause_icon" />
+
+            <ImageButton
+                style="@style/song_buttons_square"
+                android:background="#FFFFFF"
+                android:src="@drawable/play_icon" />
+
+            <ImageButton
+                style="@style/song_buttons_square"
+                android:background="#FFFFFF"
+                android:src="@drawable/next_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/library_from_on_play"
+        style="@style/weight_height"
+        android:layout_weight="0.25"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="@string/back_to_library"
+        android:textColor="@color/colorClapp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

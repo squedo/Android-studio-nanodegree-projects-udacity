@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/beginning_activity"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="com.example.dell.clapp.Metadata">
+
+    <LinearLayout
+        style="@style/weight_height"
+        android:layout_weight="0.5"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/song_image_on_metadata"
+            style="@style/song_image" />
+
+        <LinearLayout
+            style="@style/weight_width"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/artist_metadata"
+                style="@style/weight_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title_metadata"
+                style="@style/weight_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/year_metadata"
+                style="@style/weight_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/weight_height"
+        android:layout_weight="1"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_facts_metadata"
+                    android:textColor="@color/colorClapp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/explanation_description_metadata" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lyrics_metadata"
+                    android:textColor="@color/colorClapp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/explanation_lyrics_metadata" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/on_play_from_metadata"
+        style="@style/weight_height"
+        android:layout_weight="0.25"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="@string/back_to_on_play"
+        android:textColor="@color/colorClapp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
