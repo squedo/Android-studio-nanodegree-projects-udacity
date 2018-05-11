@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">GuardianAppNews</string>
+
+    <string name="politics_act">politics</string>
+    <string name="culture_act">culture</string>
+    <string name="sports_act">sports</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+    <string name="search_hint">Search Article</string>
+    <string name="no_search">No news on this topic</string>
+    <string name="no_internet">no internet</string>
+
+</resources>
