@@ -1,9 +1,9 @@
 # Android-studio-nanodegree-projects-udacity
-android studio projects 
+Android studio projects (Jan-Sept 2016)
 -----------------------------------------------------------------------------
-Sharing some of the projects/assignments of "Android Basics Nanodegree" at Udacity - (Jan-Sept 2016) => Maybe assets like pictures might not be stored in the folder, but the code is there and should work when running virtual device in Android Studio.
+Sharing some of the projects/assignments of "Android Basics Nanodegree" at Udacity - (Jan-Sept 2016) => Maybe assets like pictures might not be stored in the folders, but the code is there and should work when running it for a virtual device in Android Studio.
 
-I could learn java basics as well as XML and understand basics on how an app is designed, and how complex and challenging this can be (prepare pseudocode and structure it, DB's handling, API's calls, eastethics design, assure functionality and speed, debug process, etc.).
+I could learn java and XML basics and understand basics on how an app is designed, and how complex this can be: prepare pseudocode and structure it, DB's handling, API's calls, eastethics design, assure functionality at an adequate speed, debug process, quality testing etc. Since then I think I'm aware of how challenging it might be to assure smooth functioning of Apps we find available.
 
 Some of the projects herein shared would be:
 
