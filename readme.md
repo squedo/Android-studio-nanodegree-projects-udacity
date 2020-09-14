@@ -7,7 +7,7 @@ I could learn java and XML basics and understand basics on how an app is designe
 
 Some of the projects herein shared would be:
 
-- Soccer counter => easy to use digital score for a football match, that would display different information during the game.
+- SoccerCounter => easy to use digital score for a football match, that would display different information during the game.
 - Clapp => design of the "body" of a music App; included multiples views design and assure transitions between them through buttons.
 - TourEiffel => practicing fragments for app design, to display interesting information of a city.
 - GuardianAppNews => calls to TheGuardian API to show a news feed and make requests/searches.
